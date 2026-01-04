@@ -8,8 +8,15 @@ this project uses a modiefied wrapper of libbmusb that we had to adjust for the
 multiples resolutions , this driver is native and it will work with your older
 i5 or amd64 cpu .
 
+This app design was made based on VHCapture app for windows -
+
+## Intensity Shuttle USB 3.0 from Blackmagic Design
+<img width="540" height="120" alt="image" src="https://github.com/user-attachments/assets/813e3351-df6f-4296-bdb5-f7065cfae9f9" />
+
+<img width="555" height="222" alt="image" src="https://github.com/user-attachments/assets/b07aaca1-3947-48ae-b218-37af9cabfddd" />
 
 
+<img width="555" height="300" alt="image" src="https://github.com/user-attachments/assets/f10ccb46-f056-42e4-bf76-e6fc838b6c6f" />
 
 This app does not require a driver from blackmagic for linux , but it requires the reneseas usb3 chipset required from blackmagic .
 
