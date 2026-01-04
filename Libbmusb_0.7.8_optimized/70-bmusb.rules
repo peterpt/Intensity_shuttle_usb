@@ -1,0 +1,7 @@
+
+# Blackmagic Intensity Shuttle.
+SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="1edb", ENV{ID_MODEL_ID}=="bd3b", TAG+="uaccess"
+
+# Blackmagic UltraStudio SDI.
+SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="1edb", ENV{ID_MODEL_ID}=="bd4f", TAG+="uaccess"
+

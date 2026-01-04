@@ -1,0 +1,37 @@
+0x0800 - no signal
+0xe819 - 576p60 (720x576)
+0xe82d - 1080i60 (deep color?)
+0xe925 - 720p60
+0xe92d - 720p60 deep color
+0xe943 - 720p50 from the scaler (deep color?)
+0xe90e - 720p59.94?? from the scaler (deep color?)
+
+
+480p60      - 0xe9f1 (unsure if this is 60 or 59.94)
+NTSC        - 0xe901 (also seen 0xe9c1, 0xe801)
+NTSC 23.98  - 0xe901
+PAL         - 0xe909 (also seen 0xe9c9, 0xebe9, 0xebe1)
+1080p 23.98 - 0xe8ad
+1080p 24    - 0xe88b
+1080p 25    - 0xe86b
+1080p 29.97 - 0xe9ed
+1080p 30    - 0xe9cb
+1080i 50    - 0xe84b
+1080i 59.94 - 0xe82d
+1080i 60    - 0xe80b
+720p 50     - 0xe94b (also seen 0xe943)
+720p 59.94  - 0xe92d (also seen 0xe925)
+720p 60     - 0xe90b (also seen 0xe903)
+
+
+unknown video modes from the D4:
+
+640x424 30 fps - 0xe931
+640x424 25 fps - 0xe939
+
+
+theories:
+
+video       - 0xe800
+deep color  - 0x0008
+dropframe   - 0x0004

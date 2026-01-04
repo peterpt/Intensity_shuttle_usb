@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: bmusb
+Description: userspace driver for Blackmagic USB3 video capture cards
+Version: 0.7.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -lbmusb
+Requires: libusb-1.0
+Libs.private: -lpthread
